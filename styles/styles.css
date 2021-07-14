@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(218, 216, 216);
+}
+
+.header {
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  height: 100px;
+  margin: 20px auto;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 520;
+  font-size: 58px;
+  padding-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  font-weight: 500;
+}
+
+.header img {
+  max-width: 170px;
+  height: auto;
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar {
+  position: relative;
+  margin: 20px auto;
+  position: relative;
+
+  width: 80%;
+  max-width: 1000px;
+  height: 40px;
+}
+
+.nav a {
+  display: table;
+  float: left;
+}
+
+.nav a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: darkslateblue;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.bio {
+  position: relative;
+  margin: 20px auto;
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  min-height: 450px;
+  height: auto;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+}
+.bio_box {
+  width: 65%;
+  height: auto;
+  background-color: beige;
+  float: left;
+  background-color: whitesmoke;
+}
+
+.bio_box h1 {
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+.bio_box p {
+  color: #101010;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-top: 10px;
+  line-height: 30px;
+  background-color: whitesmoke;
+}
+
+.bio_box p a {
+  color: cornflowerblue;
+  background-color: whitesmoke;
+  text-decoration: underline;
+}
+
+.bio_photo img {
+  max-width: 25%;
+  height: auto;
+  float: right;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-top: 30px;
+  background-color: whitesmoke;
+}
+
+.footer_text {
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  height: 100px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.footer_text h3 {
+  font-size: 16px;
+  color: rgb(139, 136, 136);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.footer_text img {
+  max-width: 100px;
+  height: auto;
+}
