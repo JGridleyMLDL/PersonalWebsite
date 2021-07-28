@@ -25,7 +25,7 @@
 }
 
 .header h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-family: "Times New Roman", Times, serif;
   color: gray;
   font-weight: 500;
@@ -70,7 +70,7 @@
   position: relative;
   width: 80%;
   max-width: 1000px;
-  min-height: 450px;
+  min-height: 480px;
   height: auto;
   border: 1px solid gray;
   background-color: whitesmoke;
@@ -139,4 +139,91 @@
 .footer_text img {
   max-width: 100px;
   height: auto;
+}
+
+
+/* Experience Page Section */
+
+.experience {
+  position: relative;
+  margin: 20px auto;
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  min-height: 900px;
+  height: auto;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+}
+
+
+.experience_box h1 {
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+.exp_nav{
+  background-color: whitesmoke;
+}
+.experience_box ul{
+  
+  display: table;
+  float: left;
+  padding-left: 45px;
+  padding-top: 5px;
+  
+}
+.experience_box a{
+ background-color: whitesmoke; 
+}
+
+.experience_box li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: dark rgb(99, 18, 18);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding-right: 30px;
+  background-color: whitesmoke; 
+}
+
+
+.fbi{
+
+}
+
+
+
+
+/* Contact Page Section */
+
+.contact {
+  position: relative;
+  margin: 20px auto;
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  min-height: 900px;
+  height: auto;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+}
+
+
+.contact_box h1 {
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
 }
