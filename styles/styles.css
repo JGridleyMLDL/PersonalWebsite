@@ -29,6 +29,7 @@
   font-family: "Times New Roman", Times, serif;
   color: gray;
   font-weight: 500;
+  padding-right: 5px;
 }
 
 .header img {
@@ -36,6 +37,7 @@
   height: auto;
   float: right;
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .navbar {
@@ -78,7 +80,6 @@
 .bio_box {
   width: 65%;
   height: auto;
-  background-color: beige;
   float: left;
   background-color: whitesmoke;
 }
