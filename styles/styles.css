@@ -72,14 +72,14 @@
   position: relative;
   width: 80%;
   max-width: 1000px;
-  min-height: 500px;
+  min-height: 530px;
   height: 50%;
   border: 1px solid gray;
   background-color: whitesmoke;
 }
 .bio_box {
   width: 65%;
-  height: auto;
+  height: 480px;
   float: left;
   background-color: whitesmoke;
 }
