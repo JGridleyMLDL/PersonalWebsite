@@ -69,7 +69,6 @@
 .bio {
   position: relative;
   margin: 20px auto;
-  position: relative;
   width: 80%;
   max-width: 1000px;
   min-height: 540px;
@@ -193,28 +192,4 @@
 
 .fbi {
 }
-
-/* Contact Page Section */
-
-.contact {
-  position: relative;
-  margin: 20px auto;
-  position: relative;
-  width: 80%;
-  max-width: 1000px;
-  min-height: 900px;
-  height: auto;
-  border: 1px solid gray;
-  background-color: whitesmoke;
-}
-
-.contact_box h1 {
-  color: brown;
-  font-family: "Montserrat", sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  padding-left: 40px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  background-color: whitesmoke;
-}
+x
