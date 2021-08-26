@@ -121,7 +121,6 @@
 }
 
 .footer_text {
-  display: block;
   width: 80%;
   max-width: 1000px;
   height: 100px;
@@ -149,7 +148,7 @@
   position: relative;
   width: 80%;
   max-width: 1000px;
-  min-height: 900px;
+  height: auto;
   height: auto;
   border: 1px solid gray;
   background-color: whitesmoke;
@@ -188,4 +187,117 @@
   font-size: 14px;
   padding-right: 30px;
   background-color: whitesmoke;
+}
+
+.exp {
+  padding-left: 6%;
+  background-color: whitesmoke;
+  padding-bottom: 20%;
+}
+
+.fbi {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding-top: 10px;
+  background-color: whitesmoke;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  padding-right: 4px;
+}
+
+.text h2 {
+  padding-bottom: 4px;
+  background-color: whitesmoke;
+}
+
+.text h3 {
+  padding-bottom: 4px;
+  background-color: whitesmoke;
+}
+
+.text h4 {
+  padding-bottom: 6px;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+.text h5 {
+  background-color: whitesmoke;
+}
+
+.text p {
+  background-color: whitesmoke;
+  font-size: 14px;
+}
+.text a {
+  background-color: whitesmoke;
+}
+
+.tools {
+  margin-left: 20px;
+  display: list-item;
+}
+.tools li {
+  list-style-type: circle;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.image {
+  background-color: whitesmoke;
+}
+
+.fbi img {
+  max-width: 250px;
+  height: auto;
+  background-color: whitesmoke;
+  padding-top: 30px;
+}
+
+.rpi_research {
+  display: flexbox;
+  max-width: 90%;
+}
+
+.rpi_research img {
+  max-width: 400px;
+  height: auto;
+  background-color: #ab2328;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #010101;
+  float: right;
+}
+
+.cs_mentor {
+  display: flexbox;
+  max-width: 90%;
+}
+
+.cs_mentor img {
+  max-width: 400px;
+  height: auto;
+  background-color: #ab2328;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #010101;
+  float: right;
+  margin-right: 20px;
+}
+
+.hackrpi {
+  display: flexbox;
+  max-width: 90%;
+}
+
+.hackrpi img {
+  max-width: 300px;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 10px;
+  float: right;
+  margin-right: 20px;
 }
