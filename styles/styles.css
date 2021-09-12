@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  background-color: rgb(218, 216, 216);
+  background-color: rgb(216, 216, 218);
 }
 
 .header {
@@ -257,6 +257,7 @@
   height: auto;
   background-color: whitesmoke;
   padding-top: 30px;
+  margin-top: 10px;
 }
 
 .rpi_research {
@@ -271,6 +272,7 @@
   padding: 10px 10px 10px 10px;
   border: 2px solid #010101;
   float: right;
+  margin-top: 20px;
 }
 
 .cs_mentor {
@@ -279,12 +281,13 @@
 }
 
 .cs_mentor img {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
   background-color: #ab2328;
   padding: 10px 10px 10px 10px;
   border: 2px solid #010101;
   float: right;
+  margin-top: 20px;
   margin-right: 20px;
 }
 
@@ -294,10 +297,10 @@
 }
 
 .hackrpi img {
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   background-color: whitesmoke;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   float: right;
   margin-right: 20px;
 }
@@ -332,4 +335,30 @@
   padding-left: 50px;
   max-width: 500px;
   height: auto;
+}
+
+.nyc {
+  display: flexbox;
+  max-width: 90%;
+}
+.nyc .image img {
+  max-width: 200px;
+  height: auto;
+  float: right;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.china {
+  display: flexbox;
+  max-width: 90%;
+}
+.china .image img {
+  max-width: 150px;
+  height: auto;
+  float: right;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  padding: 10px 10px 10px 20px;
 }
