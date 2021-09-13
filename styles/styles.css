@@ -317,6 +317,7 @@
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
+  font-weight: 100;
 }
 
 .outline_box {
@@ -324,10 +325,10 @@
   margin: 20px auto;
   width: 80%;
   max-width: 1000px;
-  min-height: 540px;
-  height: 50%;
+  height: 10000;
   border: 1px solid gray;
   background-color: whitesmoke;
+  padding-bottom: 100px;
 }
 
 .outline_box img {
@@ -361,4 +362,52 @@
   background-color: whitesmoke;
   margin-top: 20px;
   padding: 10px 10px 10px 20px;
+}
+
+.running {
+  display: flexbox;
+  max-width: 90%;
+  padding-left: 20px;
+  background-color: whitesmoke;
+}
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.running .images img {
+  height: 200px;
+  width: auto;
+  float: left;
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 00px;
+}
+
+.bike {
+  display: flexbox;
+  max-width: 90%;
+  padding-left: 20px;
+  background-color: whitesmoke;
+}
+
+.bike .images img {
+  height: 250px;
+  width: auto;
+  float: left;
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 00px;
+}
+
+.dune {
+  display: flexbox;
+  max-width: 90%;
+  padding-left: 20px;
+  background-color: whitesmoke;
+}
+
+.dune .images img {
+  height: 200px;
+  width: auto;
+  float: left;
+  background-color: whitesmoke;
+  padding: 10px 10px 10px 00px;
 }
